@@ -96,7 +96,7 @@ namespace WindowsFormsApp1
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
-            this.button1.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(12, 640);
             this.button1.Name = "button1";
@@ -109,7 +109,7 @@ namespace WindowsFormsApp1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.school_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(115, 33);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(623, 601);
             this.pictureBox1.TabIndex = 17;
@@ -119,7 +119,7 @@ namespace WindowsFormsApp1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(662, 57);
+            this.label1.Location = new System.Drawing.Point(1264, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 24);
             this.label1.TabIndex = 18;
@@ -129,7 +129,7 @@ namespace WindowsFormsApp1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(662, 110);
+            this.label2.Location = new System.Drawing.Point(907, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 24);
             this.label2.TabIndex = 19;
@@ -167,7 +167,7 @@ namespace WindowsFormsApp1
             this.comboBox1.DataSource = this.clientBindingSource6;
             this.comboBox1.DisplayMember = "FirstName";
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(875, 57);
+            this.comboBox1.Location = new System.Drawing.Point(1373, 60);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(298, 24);
             this.comboBox1.TabIndex = 20;
@@ -231,14 +231,13 @@ namespace WindowsFormsApp1
             this.discountDataGridViewTextBoxColumn,
             this.mainImagePathDataGridViewTextBoxColumn});
             this.RecordServicesDataGrid.DataSource = this.serviceBindingSource;
-            this.RecordServicesDataGrid.Location = new System.Drawing.Point(859, 110);
+            this.RecordServicesDataGrid.Location = new System.Drawing.Point(906, 110);
             this.RecordServicesDataGrid.Name = "RecordServicesDataGrid";
             this.RecordServicesDataGrid.ReadOnly = true;
             this.RecordServicesDataGrid.RowHeadersWidth = 51;
             this.RecordServicesDataGrid.RowTemplate.Height = 24;
-            this.RecordServicesDataGrid.Size = new System.Drawing.Size(545, 289);
+            this.RecordServicesDataGrid.Size = new System.Drawing.Size(778, 289);
             this.RecordServicesDataGrid.TabIndex = 21;
-            this.RecordServicesDataGrid.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.services_RowHeaderMouseClick);
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -316,7 +315,7 @@ namespace WindowsFormsApp1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label3.Location = new System.Drawing.Point(641, 482);
+            this.label3.Location = new System.Drawing.Point(961, 425);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(191, 24);
             this.label3.TabIndex = 22;
@@ -326,7 +325,7 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label4.Location = new System.Drawing.Point(641, 536);
+            this.label4.Location = new System.Drawing.Point(961, 479);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(195, 24);
             this.label4.TabIndex = 23;
@@ -334,7 +333,7 @@ namespace WindowsFormsApp1
             // 
             // startLessonHr
             // 
-            this.startLessonHr.Location = new System.Drawing.Point(842, 485);
+            this.startLessonHr.Location = new System.Drawing.Point(1162, 428);
             this.startLessonHr.Name = "startLessonHr";
             this.startLessonHr.Size = new System.Drawing.Size(147, 22);
             this.startLessonHr.TabIndex = 24;
@@ -343,7 +342,7 @@ namespace WindowsFormsApp1
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label5.Location = new System.Drawing.Point(995, 482);
+            this.label5.Location = new System.Drawing.Point(1315, 425);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 24);
             this.label5.TabIndex = 25;
@@ -351,7 +350,7 @@ namespace WindowsFormsApp1
             // 
             // startLessonMin
             // 
-            this.startLessonMin.Location = new System.Drawing.Point(1057, 485);
+            this.startLessonMin.Location = new System.Drawing.Point(1377, 428);
             this.startLessonMin.Name = "startLessonMin";
             this.startLessonMin.Size = new System.Drawing.Size(147, 22);
             this.startLessonMin.TabIndex = 26;
@@ -360,7 +359,7 @@ namespace WindowsFormsApp1
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label6.Location = new System.Drawing.Point(1222, 482);
+            this.label6.Location = new System.Drawing.Point(1542, 425);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 24);
             this.label6.TabIndex = 27;
@@ -368,7 +367,7 @@ namespace WindowsFormsApp1
             // 
             // Duration
             // 
-            this.Duration.Location = new System.Drawing.Point(842, 536);
+            this.Duration.Location = new System.Drawing.Point(1162, 479);
             this.Duration.Name = "Duration";
             this.Duration.Size = new System.Drawing.Size(147, 22);
             this.Duration.TabIndex = 28;
@@ -377,7 +376,7 @@ namespace WindowsFormsApp1
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label7.Location = new System.Drawing.Point(995, 533);
+            this.label7.Location = new System.Drawing.Point(1315, 476);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(66, 24);
             this.label7.TabIndex = 29;
@@ -386,11 +385,11 @@ namespace WindowsFormsApp1
             // endLessonButton
             // 
             this.endLessonButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
-            this.endLessonButton.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
+            this.endLessonButton.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.endLessonButton.ForeColor = System.Drawing.Color.Black;
-            this.endLessonButton.Location = new System.Drawing.Point(641, 588);
+            this.endLessonButton.Location = new System.Drawing.Point(965, 544);
             this.endLessonButton.Name = "endLessonButton";
-            this.endLessonButton.Size = new System.Drawing.Size(237, 79);
+            this.endLessonButton.Size = new System.Drawing.Size(191, 51);
             this.endLessonButton.TabIndex = 31;
             this.endLessonButton.Text = "Окончание занятия";
             this.endLessonButton.UseVisualStyleBackColor = false;
@@ -400,7 +399,7 @@ namespace WindowsFormsApp1
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label8.Location = new System.Drawing.Point(1264, 614);
+            this.label8.Location = new System.Drawing.Point(1584, 557);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 24);
             this.label8.TabIndex = 35;
@@ -408,7 +407,7 @@ namespace WindowsFormsApp1
             // 
             // endLessonMin
             // 
-            this.endLessonMin.Location = new System.Drawing.Point(1099, 617);
+            this.endLessonMin.Location = new System.Drawing.Point(1419, 560);
             this.endLessonMin.Name = "endLessonMin";
             this.endLessonMin.Size = new System.Drawing.Size(147, 22);
             this.endLessonMin.TabIndex = 34;
@@ -417,7 +416,7 @@ namespace WindowsFormsApp1
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Comic Sans MS", 10.2F);
-            this.label9.Location = new System.Drawing.Point(1037, 614);
+            this.label9.Location = new System.Drawing.Point(1357, 557);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(56, 24);
             this.label9.TabIndex = 33;
@@ -425,7 +424,7 @@ namespace WindowsFormsApp1
             // 
             // endLessonHr
             // 
-            this.endLessonHr.Location = new System.Drawing.Point(884, 617);
+            this.endLessonHr.Location = new System.Drawing.Point(1204, 560);
             this.endLessonHr.Name = "endLessonHr";
             this.endLessonHr.Size = new System.Drawing.Size(147, 22);
             this.endLessonHr.TabIndex = 32;
@@ -434,7 +433,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1426, 694);
+            this.ClientSize = new System.Drawing.Size(1696, 694);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.endLessonMin);
             this.Controls.Add(this.label9);

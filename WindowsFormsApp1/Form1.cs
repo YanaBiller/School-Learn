@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
                 disableEnableAllButtons(true);
             } else
             {
-                MessageBox.Show("Incorrect passoword!");
+                MessageBox.Show("Не верный пароль!!!");
             } 
         }
 
@@ -50,20 +50,21 @@ namespace WindowsFormsApp1
             this.Hide();
         }
 
-        private void ClientRecord_Click(object sender, EventArgs e)
-        {
-            Record clientRecordView = new Record();
-
-            clientRecordView.Show();
-
-            this.Hide();
-        }
-
+      
         private void button1_Click(object sender, EventArgs e)
         {
             Edit editForm = new Edit();
 
             editForm.Show();
+
+            this.Hide();
+        }
+
+        private void ClientRecord_Click(object sender, EventArgs e)
+        {
+            Record clientRecordView = new Record();
+
+            clientRecordView.Show();
 
             this.Hide();
         }

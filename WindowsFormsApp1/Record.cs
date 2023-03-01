@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp1.utils.time;
 
 namespace WindowsFormsApp1
 {
@@ -49,23 +48,12 @@ namespace WindowsFormsApp1
             int ch, min, sec;
             ch = Convert.ToInt32(startLessonHr.Text);
             min = Convert.ToInt32(startLessonMin.Text);
-
             sec = TimeInSeconds(ch, min);
-
             int dur = Convert.ToInt32(Duration.Text);
-
             sec = sec + dur;
-
-            endLessonHr.Text = Convert.ToString(TimeConverter.convertSecondsIntoHrs(sec));
+            endLessonHr.Text = Convert.ToString((sec / 3600));
             sec = sec % 3600;
-            endLessonMin.Text = Convert.ToString(TimeConverter.convertSecondsIntoMins(sec));
-        }
-
-       
-     
-        private void services_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-           Duration.Text = RecordServicesDataGrid.Rows[e.RowIndex].Cells[3].Value.ToString();
+            endLessonMin.Text = Convert.ToString((sec / 60));
         }
 
     }

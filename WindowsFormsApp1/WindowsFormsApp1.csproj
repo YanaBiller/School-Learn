@@ -143,7 +143,6 @@
     <Compile Include="Tag.cs">
       <DependentUpon>SchoolModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="utils\time\TimeConverter.cs" />
     <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>

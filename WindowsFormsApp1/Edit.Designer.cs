@@ -47,8 +47,8 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 7.8F);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(12, 638);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 42);
@@ -137,8 +137,8 @@ namespace WindowsFormsApp1
             // 
             // saveButton
             // 
-            this.saveButton.BackColor = System.Drawing.Color.Beige;
-            this.saveButton.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.saveButton.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.saveButton.Location = new System.Drawing.Point(949, 638);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(143, 42);
@@ -148,8 +148,8 @@ namespace WindowsFormsApp1
             // 
             // deleteButton
             // 
-            this.deleteButton.BackColor = System.Drawing.Color.Coral;
-            this.deleteButton.Font = new System.Drawing.Font("Comic Sans MS", 7.8F);
+            this.deleteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.deleteButton.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.deleteButton.Location = new System.Drawing.Point(1138, 638);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(143, 42);

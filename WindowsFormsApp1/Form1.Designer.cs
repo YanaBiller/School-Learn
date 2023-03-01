@@ -39,13 +39,6 @@ namespace WindowsFormsApp1
             this.ViewButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ServicesDataGrid = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.durationInSecondsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.discountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mainImagePathDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.serviceBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.schoolDataSet = new WindowsFormsApp1.schoolDataSet();
             this.dataSet1 = new WindowsFormsApp1.DataSet1();
@@ -57,6 +50,13 @@ namespace WindowsFormsApp1
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.durationInSecondsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.discountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mainImagePathDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServicesDataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.serviceBindingSource)).BeginInit();
@@ -67,9 +67,9 @@ namespace WindowsFormsApp1
             // 
             // EditButton
             // 
-            this.EditButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.EditButton.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
-            this.EditButton.Location = new System.Drawing.Point(980, 29);
+            this.EditButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.EditButton.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
+            this.EditButton.Location = new System.Drawing.Point(942, 21);
             this.EditButton.Name = "EditButton";
             this.EditButton.Size = new System.Drawing.Size(165, 58);
             this.EditButton.TabIndex = 0;
@@ -79,9 +79,9 @@ namespace WindowsFormsApp1
             // 
             // ClientRecord
             // 
-            this.ClientRecord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientRecord.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
-            this.ClientRecord.Location = new System.Drawing.Point(1184, 29);
+            this.ClientRecord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.ClientRecord.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
+            this.ClientRecord.Location = new System.Drawing.Point(1135, 21);
             this.ClientRecord.Name = "ClientRecord";
             this.ClientRecord.Size = new System.Drawing.Size(165, 58);
             this.ClientRecord.TabIndex = 1;
@@ -91,9 +91,9 @@ namespace WindowsFormsApp1
             // 
             // ViewButton
             // 
-            this.ViewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ViewButton.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ViewButton.Location = new System.Drawing.Point(796, 29);
+            this.ViewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.ViewButton.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ViewButton.Location = new System.Drawing.Point(710, 21);
             this.ViewButton.Name = "ViewButton";
             this.ViewButton.Size = new System.Drawing.Size(165, 58);
             this.ViewButton.TabIndex = 2;
@@ -154,63 +154,6 @@ namespace WindowsFormsApp1
             this.ServicesDataGrid.Size = new System.Drawing.Size(930, 424);
             this.ServicesDataGrid.TabIndex = 4;
             // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // titleDataGridViewTextBoxColumn
-            // 
-            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
-            this.titleDataGridViewTextBoxColumn.HeaderText = "Title";
-            this.titleDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
-            this.titleDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // costDataGridViewTextBoxColumn
-            // 
-            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
-            this.costDataGridViewTextBoxColumn.HeaderText = "Cost";
-            this.costDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
-            this.costDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // durationInSecondsDataGridViewTextBoxColumn
-            // 
-            this.durationInSecondsDataGridViewTextBoxColumn.DataPropertyName = "DurationInSeconds";
-            this.durationInSecondsDataGridViewTextBoxColumn.HeaderText = "DurationInSeconds";
-            this.durationInSecondsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.durationInSecondsDataGridViewTextBoxColumn.Name = "durationInSecondsDataGridViewTextBoxColumn";
-            this.durationInSecondsDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // descriptionDataGridViewTextBoxColumn
-            // 
-            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
-            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
-            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            this.descriptionDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // discountDataGridViewTextBoxColumn
-            // 
-            this.discountDataGridViewTextBoxColumn.DataPropertyName = "Discount";
-            this.discountDataGridViewTextBoxColumn.HeaderText = "Discount";
-            this.discountDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.discountDataGridViewTextBoxColumn.Name = "discountDataGridViewTextBoxColumn";
-            this.discountDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // mainImagePathDataGridViewTextBoxColumn
-            // 
-            this.mainImagePathDataGridViewTextBoxColumn.DataPropertyName = "MainImagePath";
-            this.mainImagePathDataGridViewTextBoxColumn.HeaderText = "MainImagePath";
-            this.mainImagePathDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.mainImagePathDataGridViewTextBoxColumn.Name = "mainImagePathDataGridViewTextBoxColumn";
-            this.mainImagePathDataGridViewTextBoxColumn.Width = 125;
-            // 
             // serviceBindingSource
             // 
             this.serviceBindingSource.DataMember = "Service";
@@ -237,20 +180,20 @@ namespace WindowsFormsApp1
             // 
             // passwordInput
             // 
-            this.passwordInput.Location = new System.Drawing.Point(1370, 48);
+            this.passwordInput.Location = new System.Drawing.Point(1306, 48);
             this.passwordInput.Name = "passwordInput";
-            this.passwordInput.Size = new System.Drawing.Size(111, 22);
+            this.passwordInput.Size = new System.Drawing.Size(175, 22);
             this.passwordInput.TabIndex = 5;
             // 
             // passwordButton
             // 
-            this.passwordButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.passwordButton.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
-            this.passwordButton.Location = new System.Drawing.Point(1487, 31);
+            this.passwordButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(250)))), ((int)(((byte)(191)))));
+            this.passwordButton.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
+            this.passwordButton.Location = new System.Drawing.Point(1502, 29);
             this.passwordButton.Name = "passwordButton";
             this.passwordButton.Size = new System.Drawing.Size(75, 39);
             this.passwordButton.TabIndex = 6;
-            this.passwordButton.Text = "Ввод";
+            this.passwordButton.Text = "Войти";
             this.passwordButton.UseVisualStyleBackColor = false;
             this.passwordButton.Click += new System.EventHandler(this.passwordButton_Click);
             // 
@@ -270,21 +213,21 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(1177, 595);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 21);
+            this.label1.Size = new System.Drawing.Size(69, 25);
             this.label1.TabIndex = 8;
             this.label1.Text = "Фильтр";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(691, 596);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 21);
+            this.label2.Size = new System.Drawing.Size(65, 25);
             this.label2.TabIndex = 9;
             this.label2.Text = "Поиск";
             // 
@@ -294,6 +237,63 @@ namespace WindowsFormsApp1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(365, 22);
             this.textBox1.TabIndex = 10;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // titleDataGridViewTextBoxColumn
+            // 
+            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
+            this.titleDataGridViewTextBoxColumn.HeaderText = "Название";
+            this.titleDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
+            this.titleDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // costDataGridViewTextBoxColumn
+            // 
+            this.costDataGridViewTextBoxColumn.DataPropertyName = "Cost";
+            this.costDataGridViewTextBoxColumn.HeaderText = "Стоимость";
+            this.costDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.costDataGridViewTextBoxColumn.Name = "costDataGridViewTextBoxColumn";
+            this.costDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // durationInSecondsDataGridViewTextBoxColumn
+            // 
+            this.durationInSecondsDataGridViewTextBoxColumn.DataPropertyName = "DurationInSeconds";
+            this.durationInSecondsDataGridViewTextBoxColumn.HeaderText = "Продолжительность в сек";
+            this.durationInSecondsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.durationInSecondsDataGridViewTextBoxColumn.Name = "durationInSecondsDataGridViewTextBoxColumn";
+            this.durationInSecondsDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Описание";
+            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            this.descriptionDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // discountDataGridViewTextBoxColumn
+            // 
+            this.discountDataGridViewTextBoxColumn.DataPropertyName = "Discount";
+            this.discountDataGridViewTextBoxColumn.HeaderText = "Скидка";
+            this.discountDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.discountDataGridViewTextBoxColumn.Name = "discountDataGridViewTextBoxColumn";
+            this.discountDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mainImagePathDataGridViewTextBoxColumn
+            // 
+            this.mainImagePathDataGridViewTextBoxColumn.DataPropertyName = "MainImagePath";
+            this.mainImagePathDataGridViewTextBoxColumn.HeaderText = "Фото";
+            this.mainImagePathDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mainImagePathDataGridViewTextBoxColumn.Name = "mainImagePathDataGridViewTextBoxColumn";
+            this.mainImagePathDataGridViewTextBoxColumn.Width = 125;
             // 
             // Form1
             // 
@@ -338,6 +338,12 @@ namespace WindowsFormsApp1
         private schoolDataSet schoolDataSet;
         private System.Windows.Forms.BindingSource serviceBindingSource;
         private schoolDataSetTableAdapters.ServiceTableAdapter serviceTableAdapter;
+        private System.Windows.Forms.TextBox passwordInput;
+        private System.Windows.Forms.Button passwordButton;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn costDataGridViewTextBoxColumn;
@@ -345,12 +351,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn discountDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn mainImagePathDataGridViewTextBoxColumn;
-        private System.Windows.Forms.TextBox passwordInput;
-        private System.Windows.Forms.Button passwordButton;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
